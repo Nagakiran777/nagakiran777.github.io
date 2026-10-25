@@ -9,7 +9,7 @@ export default {
   location: 'Bengaluru, Karnataka, India',
   linkedin: 'https://www.linkedin.com/in/naga-kiran-kanchineni',
   github: 'https://github.com/Nagakiran777',
-  resumeAvailable: false, // set to true after adding public/resume.pdf
+  resumeAvailable: true, // set to true after adding public/resume.pdf
   resumePath: 'resume.pdf',
   education: { degree: 'B.Tech, Computer Science and Engineering (Artificial Intelligence)', school: 'Madanapalle Institute of Technology and Science (MITS)' },
 }
