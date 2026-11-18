@@ -11,7 +11,7 @@ export default function Hero() {
     <Suspense fallback={null}><NeuralScene reduced={!!reduced} /></Suspense>
     <div className="wrap hero-copy">
       <p className="mono tag">{cfg.name} · Bengaluru</p>
-      <h1>{line('solid', 'I BUILD', 0)}{line('outline', 'INTELLIGENT', 1)}{line('grad', 'SYSTEMS.', 2)}</h1>
+      <h1>{line('outline', 'I BUILD', 0)}{line('solid', 'INTELLIGENT', 1)}{line('grad', 'SYSTEMS.', 2)}</h1>
       <p className="lede">{cfg.intro}</p>
       <div className="row"><a className="btn primary" href="#projects">Explore My Work</a><a className="btn" href="#contact">Get in touch</a></div>
       <p className="mono avail">B.Tech AI graduate · open to AI engineering opportunities</p>
