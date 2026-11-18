@@ -6,7 +6,7 @@ import experience from '../data/experience.js'
 import { projects } from '../data/projects.js'
 
 const reveal = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0 }, viewport: { once: true, margin: '-60px' }, transition: { duration: 0.6 } }
-const links = [['about', 'About'], ['projects', 'Projects'], ['skills', 'Skills'], ['experience', 'Experience'], ['repos', 'Repos'], ['contact', 'Contact']]
+const links = [['about', 'About'], ['projects', 'Projects'], ['repos', 'Repos'], ['skills', 'Skills'], ['experience', 'Experience'], ['contact', 'Contact']]
 
 export function Navbar() {
   const [active, setActive] = useState(''), [open, setOpen] = useState(false), { scrollYProgress } = useScroll()
